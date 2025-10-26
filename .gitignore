@@ -1,5 +1,44 @@
+# Dependências Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos do sistema Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Arquivos do sistema
+*.log
+*.swp
+*.swo
+*~
+.CFUserTextEncoding
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos temporários
+.mlpcache
+md5
+
+# Android (caso não faça parte do projeto)
+.android/
+*.ini
+*.img
+sdcard.img
+analytics.settings
+
+# Outros
 *.pyc
 __pycache__/
-*.code-workspace
-.DS_Store
-*.log
